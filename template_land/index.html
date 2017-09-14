@@ -49,6 +49,8 @@
 <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
 <script type='text/javascript' src='js/custom.js'></script>
 
+
+
 		<!-- END -->
 
 </head>
@@ -187,13 +189,41 @@
 					</div>
 
 					<div id="slide-right" class="span4">
-						<h3>Tin tức pháp luật</h3>
+						<h3>Tìm kiếm</h3>
 							<ul>
-								<li><a href="#" title="Permalink to Lectus non rutrum pulvinar urna leo dignissim lorem" rel="bookmark"><h4 class="post-title">Lectus non rutrum pulvinar urna leo dignissim lore...</h4></a></li>
-								<li><a href="#" title="Permalink to Donec consectetuer ligula vulputate sem tristique cursus" rel="bookmark"><h4 class="post-title">Donec consectetuer ligula vulputate sem tristique ...</h4></a></li>
-								<li><a href="#" title="Permalink to Quisque sodales viverra ornare vitae libero ac risus" rel="bookmark"><h4 class="post-title">Quisque sodales viverra ornare vitae libero ac ris...</h4></a></li>
-								<li><a href="#" title="Permalink to Nam nibh arcu tristique eget pretium vitae libero ac risus" rel="bookmark"><h4 class="post-title">Nam nibh arcu tristique eget pretium vitae libero ...</h4></a></li>
-							</ul><div class="clear"></div>
+								
+				<select id="pa_colors" >
+						<option value="">Chọn loại nhà đất</option>
+						<option value="blue" class="active">Blue</option>						
+				</select>
+				<select  >
+						<option value="">Chọn Tỉnh/Thành phố</option>
+						<option value="blue" class="active">Blue</option>						
+				</select>
+				<select  >
+						<option value="">Chọn Quận/Huyện</option>
+						<option value="blue" class="active">Blue</option>						
+				</select>
+				<select  >
+						<option value="">Chọn Phường/Xã</option>
+						<option value="blue" class="active">Blue</option>						
+				</select>
+				<select  >
+						<option value="">Chọn diện tích</option>
+						<option value="blue" class="active">Blue</option>						
+				</select>
+				<select  >
+						<option value="">Mức giá</option>
+						<option value="blue" class="active">Blue</option>						
+				</select>
+				
+                <input id="author" name="author" type="text" value="" size="30" aria-required="true" placeholder="Tên dự án">
+                            
+				
+				 <a  class="magz-button small blue square" href="#">Tìm kiếm</a>
+
+				</ul>
+							
 					</div>
 				</div>
 				
@@ -410,8 +440,9 @@
 
 			<div id="tabwidget" class="widget tab-container"> 
 				<ul id="tabnav" class="clearfix"> 
-					<li><h3><a href="#tab1" class="selected"><img src="images/view-white-bg.png" alt="Popular">Bán nhà đất</a></h3></li>
-					<li><h3><a href="#tab2"><img src="images/time-white.png" alt="Recent">Cho thuê</a></h3></li>				  
+					<li><h3><a href="#tab1" class="selected"><img src="images/view-white-bg.png" alt="Popular">Tin pháp luật</a></h3></li>
+					<li><h3><a href="#tab2"><img src="images/time-white.png" alt="Recent">Xây dựng</a></h3></li>
+				    <li><h3><a href="#tab3"><img src="images/komen-putih.png" alt="Comments">Kiến trúc</a></h3></li>
 				</ul> 
 
 			<div id="tab-content">
@@ -519,14 +550,21 @@
 				</ul> 	 
 			</div><!-- /#tab2 --> 
 
-			<!-- /#tab2 --> 
+			<div id="tab3" style="display: none; ">
+				<ul>
+					<li><span class="author">Magazine Author</span> on <a href="#" title=" View comment ">Lorem Ipsum is simply dummy te</a></li>
+					<li><span class="author">Magazine Author</span> on <a href="#" title=" View comment ">Lorem Ipsum is simply dummy te</a></li>
+					<li><span class="author">magazine</span> on <a href="#" title=" View comment ">This is threaded comment level</a></li>
+					<li><span class="author">magazine</span> on <a href="#" title=" View comment ">This is threaded comment syste</a></li>
+				</ul>
+			</div><!-- /#tab2 --> 
 	
 			</div><!-- /#tab-content -->
 
 			</div><!-- /#tab-widget --> 
 
 			<div class="widget widget_latestpost">
-				<h3 class="title"><span>Recent Posts</span></h3>
+				<h3 class="title"><span>Tin mới nhất</span></h3>
 				<div class="latest-posts widget">
 					<div class="latest-post clearfix">
 						<a href="#"><img width="225" height="136" src="images/dummy/shutterstock_134257640-225x136.jpg" class="thumb fl" alt="shutterstock_134257640" title="" /></a>
@@ -570,7 +608,7 @@
 				</div>
 			</div>
 
-			<div class="widget widget_latestpost"><h3 class="title"><span>Technology News</span></h3>
+			<div class="widget widget_latestpost"><h3 class="title"><span>Nội thất</span></h3>
 				<div class="latest-posts">
 					<article class="post">
 						<a class="image_thumb_zoom" href="#" title="Permalink to Porta lorem ipsum dolor sit amet, consectetur adipiscing risus" rel="bookmark">
@@ -645,7 +683,7 @@
 		<div class="clearfix"></div>
 
 		<div id="gallery">
-			<h3 class="title"><span>All News Gallery</span></h3>
+			<h3 class="title"><span>Dự án host</span></h3>
 				<ul class="gallery">
 					<li>
 					<a class="image_thumb_zoom" href="#" title="Permalink to Fusce pellentesque suscipit nibh massa porta molestie iaculis" rel="bookmark">
