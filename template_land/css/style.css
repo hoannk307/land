@@ -754,31 +754,31 @@ span.date,
 
 #home-top .title span {
   background:
-  #e9ecee;color:
-  #3e4548;
+  #0088cc;color:
+  #fff;
 }
 #home-middle .left .title span {
-  background: #e9ecee;
-  color: #3e4548;
+  background: #0088cc;
+  color: #fff;
 }
 #home-middle .right .title span {
-  background: #e9ecee;
-  color: #3e4548;
+  background: #0088cc;  
+  color: #fff;
 }
 #home-bottom .title span {
-  background: #e9ecee;
-  color: #3e4548;
+  background: #0088cc;
+  color: #fff;
 }
 #gallery .title span {
-  background: #e9ecee;
-  color: #3e4548;
+  background: #0088cc;
+  color: #fff;
 }
 
 /* Single post */
 
 .entry-content {
   font-size:13px;
-  padding:20px 0 40px;
+  padding:10px 0 20px;
 }
 
 .entry-content img {
